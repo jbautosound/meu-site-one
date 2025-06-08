@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="JB Auto Sound: Especialistas em instalação de multimídia, som automotivo e acessórios em Cuiabá e região. Atendimento domiciliar com qualidade e profissionalismo.">
   <title>JB Auto Sound - Instalação de Multimídia</title>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -20,8 +18,6 @@
     }
     header img {
       width: 200px;
-      max-width: 90vw;
-      height: auto;
     }
     nav {
       margin-top: 10px;
@@ -31,66 +27,38 @@
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
-      transition: color 0.2s;
-    }
-    nav a:hover,
-    nav a:focus {
-      color: #fff;
-      text-decoration: underline;
-    }
-    main {
-      display: block;
-      width: 100%;
     }
     .hero {
-      padding: 40px 10px;
+      padding: 40px;
       text-align: center;
       background-color: #111;
     }
     .hero h1 {
       font-size: 36px;
       color: #00ff88;
-      margin-bottom: 16px;
     }
     .hero p {
       font-size: 18px;
-      margin-bottom: 20px;
     }
     .btn {
       display: inline-block;
-      margin-top: 10px;
+      margin-top: 20px;
       background: #00ff88;
       color: #000;
-      padding: 12px 28px;
+      padding: 10px 20px;
       border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
-      font-size: 18px;
-      transition: background 0.2s, color 0.2s;
-    }
-    .btn:hover,
-    .btn:focus {
-      background: #00c96b;
-      color: #fff;
     }
     section {
-      padding: 30px 10px;
-      max-width: 700px;
-      margin: 0 auto;
+      padding: 30px;
     }
     section h2 {
       color: #00ff88;
-      margin-bottom: 16px;
-      font-size: 28px;
     }
     ul {
       list-style: none;
       padding-left: 0;
-      margin: 0 0 16px 0;
-    }
-    ul li {
-      margin-bottom: 10px;
-      font-size: 17px;
     }
     ul li::before {
       content: "✅ ";
@@ -98,99 +66,64 @@
     .contato a {
       color: #00ff88;
       text-decoration: none;
-      transition: color 0.2s;
-    }
-    .contato a:hover,
-    .contato a:focus {
-      color: #fff;
-      text-decoration: underline;
-    }
-    .cartao-visita {
-      display: block;
-      margin: 30px auto 0 auto;
-      max-width: 100%;
-      width: 400px;
-      height: auto;
-      border-radius: 10px;
-      box-shadow: 0 4px 18px #0006;
     }
     footer {
       text-align: center;
-      padding: 15px 10px;
+      padding: 15px;
       background-color: #1e1e1e;
       color: #ccc;
-      font-size: 15px;
     }
-    @media (max-width: 600px) {
-      .hero h1 {
-        font-size: 24px;
-      }
-      section {
-        padding: 15px 5px;
-      }
-      .cartao-visita {
-        width: 95vw;
-        max-width: 100%;
-      }
-      nav a {
-        margin: 0 8px;
-        font-size: 15px;
-      }
-      .btn {
-        font-size: 16px;
-        padding: 10px 16px;
-      }
-      section h2 {
-        font-size: 22px;
-      }
+    .cartao-visita {
+      display: block;
+      margin: 30px auto;
+      max-width: 100%;
+      width: 400px;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo-jb-autosound.png" alt="Logo da JB Auto Sound">
-    <nav aria-label="Navegação principal">
+    <img src="logo.png" alt="Logo JB AutoSound">
+    <nav>
       <a href="#servicos">Serviços</a>
       <a href="#sobre">Sobre</a>
       <a href="#contato">Contato</a>
     </nav>
   </header>
-  <main>
-    <section class="hero" aria-label="Destaque">
-      <h1>Especialistas em Instalação de Multimídias</h1>
-      <p>Atendimento em Cuiabá e região &bull; Profissionalismo e qualidade garantida!</p>
-      <a class="btn" href="https://wa.me/5565999312619" target="_blank" rel="noopener noreferrer" aria-label="Chamar no WhatsApp">Chamar no WhatsApp</a>
-    </section>
 
-    <section id="servicos">
-      <h2>Serviços</h2>
-      <ul>
-        <li>Instalação de multimídia Android</li>
-        <li>Câmeras de ré, LEDs e acessórios</li>
-        <li>Alto-falantes, amplificadores</li>
-        <li>Serviços para linha automotiva e náutica</li>
-        <li><strong>Apenas instalação</strong> - não vendemos equipamentos</li>
-      </ul>
-    </section>
+  <section class="hero">
+    <h1>Especialistas em Instalação de Multimídias</h1>
+    <p>Atendimento em Cuiabá e região | Profissionalismo e qualidade garantida!</p>
+    <a class="btn" href="https://wa.me/5565999312619" target="_blank">Chamar no WhatsApp</a>
+  </section>
 
-    <section id="sobre">
-      <h2>Sobre a JB Auto Sound</h2>
-      <p>
-        Somos especializados em instalação de som e multimídia automotiva. Trabalhamos com foco total em qualidade, acabamento e atendimento ágil. Atendemos a domicílio em Cuiabá e região.
-      </p>
-    </section>
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Instalação de multimídia Android</li>
+      <li>Câmeras de ré, LEDs e acessórios</li>
+      <li>Alto-falantes, amplificadores</li>
+      <li>Serviços para linha automotiva e náutica</li>
+      <li><strong>Apenas instalação</strong> - não vendemos equipamentos</li>
+    </ul>
+  </section>
 
-    <section id="contato" class="contato">
-      <h2>Contato</h2>
-      <p><strong>Jefferson</strong></p>
-      <p>📞 <a href="tel:+5565999312619" aria-label="Ligar para Jefferson">(65) 9 9931-2619</a></p>
-      <p>📸 Instagram: <a href="https://instagram.com/jb.autosound" target="_blank" rel="noopener noreferrer">@jb.autosound</a></p>
-      <p>📍 Atendimento a domicílio em Cuiabá - MT</p>
-      <img src="cartao-jb-autosound.png" alt="Cartão de Visita JB Auto Sound" class="cartao-visita">
-    </section>
-  </main>
+  <section id="sobre">
+    <h2>Sobre a JB AutoSound</h2>
+    <p>Empresa especializada em instalação de som e multimídia automotiva. Trabalhamos com foco total em qualidade, acabamento e atendimento ágil. Atendemos a domícilio em Cuiabá e região.</p>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <p><strong>Jefferson</strong></p>
+    <p>📞 <a href="tel:+5565999312619">(65) 9 9931-2619</a></p>
+    <p>📸 Instagram: <a href="https://instagram.com/jb.autosound" target="_blank">@jb.autosound</a></p>
+    <p>📍 Atendimento a domícilio em Cuiabá - MT</p>
+    <img src="cartao-visita.jpg" alt="Cartão de Visita JB AutoSound" class="cartao-visita">
+  </section>
+
   <footer>
-    <p>&copy; 2025 JB Auto Sound. Todos os direitos reservados.</p>
+    <p>&copy; 2025 JB AutoSound. Todos os direitos reservados.</p>
   </footer>
 </body>
-</html>
+      </html>
